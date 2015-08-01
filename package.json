@@ -1,0 +1,30 @@
+{
+  "name": "lethexa-astar",
+  "version": "0.0.1",
+  "description": "A*-pathfinding",
+  "main": "index.js",
+  "author": {
+    "name": "Tim Leerhoff",
+    "email": "<tleerhof@web.de>"
+  },
+  "scripts": {
+    "test": "jshint lib/"
+  },
+  "publishConfig": {
+    "registry": "http://npm.home.web:4873/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git.home.web/base/js/lethexa-astar.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-jshint": "~0.11.2",
+    "grunt-contrib-yuidoc": "~0.7.0",
+    "grunt-mocha-cli": "~1.13.0"
+  }
+}
