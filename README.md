@@ -13,6 +13,13 @@ Usage
 -----
 
 	var astar = require('lethexa-astar');
-	astar.setMesh();
-	var path = astar.findPath(1, 2);
+
+	var mesh = new astar.Net();
+	mesh.addNode(1, {});
+	mesh.addNode(2, {});
+	mesh.addNode(3, {});
+	mesh.connect(1, 2);
+
+	var routing = new astar.AStarRouting();
+	var path = routing.calculateRoute();
 
