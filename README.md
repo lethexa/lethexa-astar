@@ -23,3 +23,8 @@ Usage
 	var routing = new astar.AStarRouting();
 	var path = routing.calculateRoute();
 
+Contributors
+------------
+
+* Tim Leerhoff <tleerhof@web.de>
+
