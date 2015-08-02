@@ -1,6 +1,6 @@
 {
   "name": "lethexa-astar",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A*-pathfinding",
   "main": "index.js",
   "author": {
@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git://git.home.web/base/js/lethexa-astar.git"
   },
-  "license": "MIT",
+  "license": "BSD-2-Clause",
   "dependencies": {
   },
   "devDependencies": {
