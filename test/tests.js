@@ -11,9 +11,10 @@ describe('AStarRouting', function () {
 			mesh.addNode(3, {});
 			mesh.connect(1, 2);
 
-			var routing = new astar.AStarRouting();
+			var routing = new astar.AStarRouting(1, 2, mesh);
 
-			//routing.calculateRoute(); 
+			var result = routing.calculateRoute(); 
+			console.log(result);
 
 			assert.equal(-1, [1, 2, 3].indexOf(5));
 			assert.equal(-1, [1, 2, 3].indexOf(0));
