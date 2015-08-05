@@ -19,7 +19,7 @@ describe('AStarRouting', function () {
 			var routing = new astar.AStarRouting(1, 5, mesh);
 			var result = routing.calculateRoute(); 
 			
-			assert.deepEqual(result, [5, 3, 2, 1]);
+			assert.deepEqual(result, [1, 2, 3, 5]);
 		});
 	});
 
@@ -49,7 +49,7 @@ describe('AStarRouting', function () {
 			var routing = new astar.AStarRouting(1, 6, mesh);
 			var result = routing.calculateRoute(); 
 			
-			assert.deepEqual(result, [6, 8, 7, 3, 2, 1]);
+			assert.deepEqual(result, [1, 2, 3, 7, 8, 6]);
 		});
 	});
 });
