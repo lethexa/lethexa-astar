@@ -9,8 +9,8 @@ describe('AStarRouting', function () {
 			mesh.addNode(1, {position: [0,0,0]});
 			mesh.addNode(2, {position: [1,0,0]});
 			mesh.addNode(3, {position: [2,0,0]});
-			mesh.addNode(4, {position: [3,0,0]});
-			mesh.addNode(5, {position: [3,0,0]});
+			mesh.addNode(4, {position: [3,1,0]});
+			mesh.addNode(5, {position: [3,-1,0]});
 			mesh.connect(1, 2);
 			mesh.connect(2, 3);
 			mesh.connect(3, 4);
