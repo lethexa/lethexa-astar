@@ -1,5 +1,7 @@
 var assert = require('assert');
 var astar = require('../lib/astar');
+var astar = require((process.env.APP_DIR_FOR_CODE_COVERAGE || '../lib/') + 'astar');
+
 
 
 describe('AStarRouting', function () {
