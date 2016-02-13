@@ -10,12 +10,9 @@
   "scripts": {
     "test": "jshint lib/"
   },
-  "publishConfig": {
-    "registry": "http://npm.home.web:4873/"
-  },
   "repository": {
     "type": "git",
-    "url": "git://git.home.web/base/js/lethexa-astar.git"
+    "url": "https://github.com/lethexa/lethexa-astar"
   },
   "license": "MIT",
   "dependencies": {
