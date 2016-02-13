@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git://git.home.web/base/js/lethexa-astar.git"
   },
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "dependencies": {
   },
   "devDependencies": {

@@ -1,13 +1,14 @@
+lethexa-astar
+-------------
+
+An implementation of the A*-algorithm in javascript.
+
+
 Installation
 ------------
 
 	npm install
 	grunt
-
-Testing
--------
-
-	npm test
 
 Usage
 -----
@@ -38,9 +39,4 @@ Usage
 	var resultPath = routing.calculateRoute(); 
 			
 	console.log(resultPath);
-
-Contributors
-------------
-
-* Tim Leerhoff <tleerhof@web.de>
 
