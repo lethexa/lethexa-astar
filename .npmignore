@@ -2,6 +2,7 @@
 /dist/
 /build/
 /doc/
+/nbproject/
 /coverage/
 results.txt
 jenkins-grunt.sh
